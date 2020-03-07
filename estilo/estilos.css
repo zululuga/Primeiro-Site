@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+/* * {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+header {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #727272;
+}
+header h1 {
+    display: inline-block;
+    width: 15%;
+    margin-right: -4px;
+    /* border: 1px solid black; */
+    vertical-align: middle;
+    color:white;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+header nav {
+    display: inline-block;
+    width: 85%;
+    /* border: 1px solid black; */
+    text-align: right;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+header nav a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+h1 span {
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-style: italic;
+}
+body {
+    font-family:'Inconsolata', monospace;
+    color:grey;
+    background-color: #efefef
+}
+main {
+    width: 70%;
+    /*border: 1px solid orange;*/
+    margin:20px auto 0 auto
+}
+main section {
+display: inline-block;
+margin-right: -4px;
+width: 70%;
+/*border: 1px solid red;*/
+vertical-align: top;
+background-color: white;
+}
+main aside {
+    display: inline-block;
+    margin-right: -4px;
+    width: 27%;
+    margin-left: 3%;
+    /*border: 1px solid green;*/
+    vertical-align: top;
+    /*border: 1px solid violet;*/
+}
+main section img {
+    width: 100%;
+}
+main section h2 {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+main section p {
+    padding: 0 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+.aside-box {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.aside-box h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.aside-box input {
+    height: 45px;
+    width: 70%;
+    margin-left: 20px;
+    border: 1px solid #efefef;
+    margin-top: 10px;
+}
+.aside-box button {
+    width: 18%;
+    height: 45px;
+    background-color: grey;
+    color: white;
+}
+.aside-box ul {
+    padding-top: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-right: 35px;
+    line-height: 25px;
+}
+
+.aside-box p {
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 25px;
+    text-align: center;
+}
+#email {
+    height: 45px;
+    width: 70%;
+    margin-left: 50px;
+    border: 1px solid #efefef;
+    margin-top: 10px;
+}
+nav :hover {
+    font-weight: 900;
+    font-size: 25px;
+    
+}
