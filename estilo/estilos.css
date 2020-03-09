@@ -61,7 +61,7 @@ margin-right: -4px;
 width: 70%;
 /*border: 1px solid red;*/
 vertical-align: top;
-background-color: #d2d5d9;
+background-color: #dddddd;
 }
 main aside {
     display: inline-block;
@@ -71,7 +71,7 @@ main aside {
     /*border: 1px solid green;*/
     vertical-align: top;
     /*border: 1px solid violet;*/
-    background-color: #d2d5d9;
+    background-color: #dddddd;
 }
 main section img {
     width: 100%;
@@ -87,7 +87,7 @@ main section p {
     padding-bottom: 15px;
 }
 .aside-box {
-    background-color: #d2d5d9;
+    background-color: #dddddd;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -130,7 +130,7 @@ main section p {
 #email {
     height: 45px;
     width: 70%;
-    margin-left: 50px;
+    margin-left: 45px;
     border: 1px solid #efefef;
     margin-top: 10px;
 }
