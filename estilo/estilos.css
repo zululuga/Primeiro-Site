@@ -61,7 +61,7 @@ margin-right: -4px;
 width: 70%;
 /*border: 1px solid red;*/
 vertical-align: top;
-background-color: white;
+background-color: #a3aab5;
 }
 main aside {
     display: inline-block;
@@ -71,6 +71,7 @@ main aside {
     /*border: 1px solid green;*/
     vertical-align: top;
     /*border: 1px solid violet;*/
+    background-color: #a3aab5;
 }
 main section img {
     width: 100%;
@@ -86,7 +87,7 @@ main section p {
     padding-bottom: 15px;
 }
 .aside-box {
-    background-color: white;
+    background-color: #a3aab5;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
